@@ -1,69 +1,69 @@
 # Document Classifier with spaCy
 
-## 📌 Descrição
-Este projeto classifica automaticamente documentos em **25 categorias** usando a biblioteca [spaCy](https://spacy.io/). O modelo analisa o texto e identifica seu tipo com base em palavras-chave predefinidas.
+## 📌 Description
+This project automatically classifies documents into **25 categories** using the [spaCy](https://spacy.io/) library. The model analyzes the text and identifies its type based on predefined keywords.
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 - Python 3.x
 - spaCy
 
-## 📂 Categorias Suportadas
-- E-mail
-- Contrato
-- Notícia
-- Receita
-- Artigo Científico
-- Código de Programação
-- Redação
-- Relatório
+## 📂 Supported Categories
+- Email
+- Contract
+- News
+- Recipe
+- Scientific Article
+- Programming Code
+- Essay
+- Report
 - Blog Post
-- Discurso
-- Diário
-- Poesia
-- Manual de Usuário
-- Carta
-- Tese
-- Resenha
-- Anúncio Publicitário
-- Fábula
-- História em Quadrinhos
-- Mensagem de Texto
-- Comunicado Oficial
-- Lista de Compras
-- Roteiro de Filme
-- Piada
+- Speech
+- Diary
+- Poetry
+- User Manual
+- Letter
+- Thesis
+- Review
+- Advertisement
+- Fable
+- Comic Book
+- Text Message
+- Official Statement
+- Shopping List
+- Movie Script
+- Joke
 
-## 📦 Instalação
-1. Clone este repositório:
+## 📦 Installation
+1. Clone this repository:
    ```bash
-   git clone https://github.com/seu-usuario/document-classifier-spacy.git
+   git clone https://github.com/your-username/document-classifier-spacy.git
    cd document-classifier-spacy
    ```
-2. Instale as dependências:
+2. Install dependencies:
    ```bash
    pip install spacy
    python -m spacy download pt_core_news_sm
    ```
 
-## ▶️ Como Usar
-Execute o script e insira um texto para classificação:
+## ▶️ How to Use
+Run the script and enter a text for classification:
 ```bash
 python classifier.py
 ```
-Digite ou cole o texto quando solicitado e veja a categoria correspondente.
+Type or paste the text when prompted and see the corresponding category.
 
-## 📜 Exemplo de Uso
-Entrada:
+## 📜 Example Usage
+Input:
 ```
-Prezados, envio em anexo o relatório de desempenho do último mês.
+Dear team, I am sending the performance report for the last month as an attachment.
 ```
-Saída:
+Output:
 ```
-O documento foi classificado como: E-mail
+The document was classified as: Email
 ```
 
-## 🤝 Contribuição
-Sinta-se à vontade para abrir issues e enviar PRs com melhorias!
+## 🤝 Contribution
+Feel free to open issues and submit PRs with improvements!
 
-## 📄 Licença
-Este projeto está sob a licença MIT.
+## 📄 License
+This project is licensed under the MIT License.
